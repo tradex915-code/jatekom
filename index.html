@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HouseQuest AR</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.min.js"></script>
+</head>
+<body>
+
+<video id="camera" autoplay playsinline></video>
+
+<div id="hud">
+    <h2>HouseQuest AR</h2>
+
+    <div id="mission">
+        Küldetés: Beszkenneld a szobát.
+    </div>
+
+    <button id="scanButton">
+        Szkennelés
+    </button>
+</div>
+
+<canvas id="game"></canvas>
+
+<script src="game.js"></script>
+
+</body>
+</html>
